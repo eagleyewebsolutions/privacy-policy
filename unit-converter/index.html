@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy • Unit Converter + Math Tools</title>
+  <meta name="description" content="Privacy Policy for the Unit Converter + Math Tools Chrome Extension by Eagleye Web Solutions." />
+  <style>
+    :root{
+      --bg:#0c1216;
+      --card:#121b22;
+      --text:#eef5f8;
+      --muted:rgba(238,245,248,.72);
+      --border:rgba(255,255,255,.12);
+      --accent:#39c6e6;
+      --shadow:0 18px 38px rgba(0,0,0,.35);
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(57,198,230,.18), transparent 55%),
+        radial-gradient(1000px 600px at 90% 0%, rgba(57,198,230,.12), transparent 55%),
+        var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+    .wrap{
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 28px 16px 44px;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      padding: 16px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.05);
+      box-shadow: var(--shadow);
+    }
+    .logo{
+      width:44px;height:44px;
+      border-radius: 14px;
+      display:grid;place-items:center;
+      font-weight:900;
+      border: 1px solid rgba(57,198,230,.28);
+      background: linear-gradient(135deg, rgba(57,198,230,.22), rgba(255,255,255,.06));
+      flex: 0 0 auto;
+    }
+    h1{margin:0;font-size:22px;letter-spacing:.2px}
+    .sub{margin:6px 0 0;color:var(--muted);font-size:13px}
+    .card{
+      margin-top: 14px;
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.05);
+      box-shadow: var(--shadow);
+    }
+    h2{margin:0 0 10px;font-size:16px;letter-spacing:.2px}
+    p{margin: 0 0 12px; color: var(--text)}
+    ul{margin: 0 0 12px 18px; padding:0; color: var(--text)}
+    li{margin: 6px 0}
+    .muted{color: var(--muted)}
+    .pill{
+      display:inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(57,198,230,.30);
+      background: rgba(57,198,230,.10);
+      color: rgba(238,245,248,.95);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    a{color: var(--accent); text-decoration: none}
+    a:hover{text-decoration: underline}
+    footer{
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+    code{
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.10);
+      padding: 2px 6px;
+      border-radius: 8px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      font-size: 12px;
+      color: rgba(238,245,248,.95);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo" aria-hidden="true">↔</div>
+      <div>
+        <h1>Privacy Policy</h1>
+        <div class="sub">
+          For <strong>Unit Converter + Math Tools</strong> (Chrome Extension) by <strong>Eagleye Web Solutions</strong>
+          <span class="pill" style="margin-left:8px;">No data sold</span>
+          <span class="pill" style="margin-left:8px;">No tracking</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>Effective Date</h2>
+      <p><strong>December 31, 2025</strong></p>
+      <p class="muted">
+        This Privacy Policy explains what information the extension collects and how it is used.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Summary</h2>
+      <ul>
+        <li><strong>We do not collect</strong> personal information.</li>
+        <li><strong>We do not sell</strong> any data.</li>
+        <li><strong>We do not use</strong> analytics, ads, or tracking.</li>
+        <li>Any saved settings (like theme, decimals, favorites, history) are stored using <code>chrome.storage</code> and remain in your browser.</li>
+        <li>The extension works <strong>offline</strong> and does not require a server.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Information We Collect</h2>
+      <p><strong>None.</strong></p>
+      <p class="muted">
+        The extension does not collect, transmit, or store personal data on external servers.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Data Stored Locally in Your Browser</h2>
+      <p>
+        To provide features like favorites, history, theme settings, and decimal precision, the extension stores the following
+        data locally using Chrome’s extension storage:
+      </p>
+      <ul>
+        <li>Theme preference (Light/Dark/System)</li>
+        <li>Decimal precision setting</li>
+        <li>Favorited conversions (category + from/to units)</li>
+        <li>Recent conversion history (last results)</li>
+        <li>Last selected converter category and units</li>
+      </ul>
+      <p class="muted">
+        This information is used only to improve your experience and is not shared with Eagleye Web Solutions or any third party.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Permissions</h2>
+      <p>
+        The extension requests the following permission:
+      </p>
+      <ul>
+        <li><code>storage</code> — used to save your settings, favorites, and history in Chrome.</li>
+      </ul>
+      <p class="muted">
+        No other permissions are required for the extension to function.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Third-Party Services</h2>
+      <p><strong>None.</strong></p>
+      <p class="muted">
+        The extension does not use third-party analytics, advertising networks, trackers, or external APIs.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Children’s Privacy</h2>
+      <p>
+        This extension is not directed to children under 13, and we do not knowingly collect personal information from children.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Changes to This Policy</h2>
+      <p>
+        If we update this Privacy Policy, we will revise the “Effective Date” at the top of this page.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>
+        If you have questions about this Privacy Policy, you can contact:
+      </p>
+      <p>
+        <strong>Eagleye Web Solutions</strong><br />
+        <span class="muted">Email:</span> <a href="mailto:eagleyewebsolutions@gmail.com">eagleyewebsolutions@gmail.com</a>
+      </p>
+      <p class="muted">
+        (Tip: replace the email above with your preferred support email if needed.)
+      </p>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Eagleye Web Solutions. All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
